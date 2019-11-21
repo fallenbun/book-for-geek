@@ -12,6 +12,16 @@
     <list default="true" id="1fd1dd00-6174-481c-a452-bfea31c0a51b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/store.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/store/config/PersistenceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/store/config/PersistenceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/store.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/store.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/store/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/store/WEB-INF/classes/META-INF/store.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/store/WEB-INF/classes/store/config/PersistenceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/store/WEB-INF/classes/store/config/PersistenceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/store/WEB-INF/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/store/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="255" column="25" selection-start-line="255" selection-start-column="25" selection-end-line="255" selection-end-column="25" />
+            <state relative-caret-position="442">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="31" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -111,25 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/store/config/PersistenceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
-              <folding>
-                <element signature="e#1665#1676#1" expanded="true" />
-                <element signature="e#1733#1741#1" expanded="true" />
-                <element signature="e#1795#1808#1" expanded="true" />
-                <element signature="e#1863#1876#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://eed31315-882f-4183-9578-806d7ef680a0/database/store_db/schema/public/table/users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
+            <state relative-caret-position="291">
+              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -139,15 +132,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/store/controller/CartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="36" column="91" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -316,8 +300,8 @@
         <option value="$PROJECT_DIR$/src/main/java/store/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/repository/CategoryRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/persistence.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/store/config/PersistenceConfig.java" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/main/java/store/config/PersistenceConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -357,11 +341,6 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="store Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="store Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -387,6 +366,41 @@
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -441,22 +455,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.main">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="store.Application" />
-      <module name="store" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="orders.ftl" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/WEB-INF/templates/customer/orders.ftl">
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
@@ -539,17 +537,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
-      <item itemvalue="JavaScript Debug.orders.ftl" />
-      <item itemvalue="Tomcat Server.main" />
       <item itemvalue="Heroku Deployment.Heroku - store" />
+      <item itemvalue="Tomcat Server.main" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Application" />
-        <item itemvalue="JavaScript Debug.orders.ftl" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpringGeneralSettings">
     <option name="allowAutoConfigurationMode" value="true" />
@@ -643,7 +633,7 @@
       <workItem from="1573977295487" duration="14222000" />
       <workItem from="1574057012307" duration="31804000" />
       <workItem from="1574146842276" duration="31011000" />
-      <workItem from="1574332971566" duration="6109000" />
+      <workItem from="1574332971566" duration="8821000" />
     </task>
     <task id="LOCAL-00001" summary="adding procfile">
       <created>1574338721863</created>
@@ -666,11 +656,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574341642510</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update pom">
+      <created>1574342054502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574342054502</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update persistence conf">
+      <created>1574343951041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574343951041</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="836748000" />
+    <option name="totallyTimeSpent" value="839460000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -683,9 +687,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -695,7 +698,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.28277355" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.28277355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37378114" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -766,7 +769,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding procfile" />
     <MESSAGE value="update pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pom" />
+    <MESSAGE value="update persistence conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="update persistence conf" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1111,25 +1115,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/config/PersistenceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
-          <folding>
-            <element signature="e#1665#1676#1" expanded="true" />
-            <element signature="e#1733#1741#1" expanded="true" />
-            <element signature="e#1795#1808#1" expanded="true" />
-            <element signature="e#1863#1876#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/fsn">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://eed31315-882f-4183-9578-806d7ef680a0/database/store_db/schema/public/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1140,13 +1127,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fsn">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/config/PersistenceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="255" column="25" selection-start-line="255" selection-start-column="25" selection-end-line="255" selection-end-column="25" />
+        <state relative-caret-position="442">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
