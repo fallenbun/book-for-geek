@@ -21,6 +21,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.Properties;
 
 @Configuration
@@ -32,10 +34,11 @@ import java.util.Properties;
 public class PersistenceConfig {
 
     @Bean
-    public DataSource dataSource(@Value("${driver}") String driver,
+    public DataSource dataSource(
+                                @Value("${driver}") String driver,
                                  @Value("${url}") String url,
                                  @Value("${username}") String user,
-                                 @Value("${password}") String password) {
+                                 @Value("${password}") String password){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(driver);
         dataSource.setUrl(url);
