@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    height: auto;
+    background: #affa4a;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 15px 0;
+    margin: 0 15px;
+}
+
+.logo {
+    float: left;
+}
+.menu {
+    margin: 0 auto;
+    text-align: center;
+}
+.menu li {
+    margin: 0 25px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block; /*один из способов разместить элементы в строку*/
+}
