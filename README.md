@@ -38,7 +38,7 @@
     Например: @NotNull, @Email, @Size(min=6) и др. При отправке какого-либо POST-запроса, отвечающего за обработку форм,
     программа читает данные аннотации и выводит уведомление об ошибке в Вид, если присутствует несоответствие.
 ## Модель данных
-![](https://github.com/fallenbun/screenshots/blob/master/java/store/dbER.png)
+![](https://github.com/fallenbun/book-for-geek/tree/master/store/src/common/dbER.png)
 ## Запуск
 Установить:
 * Spring 5
@@ -52,4 +52,4 @@
 В файле **persistence.properties** ввести данные для своей БД. Также, изменить переменную _upload.path_ под свою систему.
 
 ## Главная страница магазина
-![](https://github.com/fallenbun/screenshots/blob/master/java/store/homepage.png)
+![](https://github.com/fallenbun/book-for-geek/tree/master/store/src/common/homepage.png)
